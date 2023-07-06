@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Report form</title>
+    <link rel="stylesheet" href="proj1form.css" />
+</head>
+
+<body>
+    <form action="https://formspree.io/f/mvojooja" method="POST">
+        <div class="container">
+            <div class="form-wrapper">
+                <h2 class="heading">Report your problem to us!</h2>
+                <input 
+                    class="contact-form-input"
+                    type="text" 
+                    autocomplete="off" 
+                    placeholder="Name"  
+                    minlength="3"
+                    required 
+                    name="username"/>
+                    <br>
+                <input 
+                    class="contact-form-input"
+                    type="email" 
+                    autocomplete="off" 
+                    placeholder="Email"  
+                    minlength="3"
+                    required 
+                    name="email"/>
+                    <br>
+                <textarea class="contact-form-input contact-form-textarea" placeholder="Type your Message"
+                    required name="message"></textarea>
+                <br>
+                <button type="submit" class="form-submit-btn">Report</button>
+            </div>
+        </div>
+    </form>
+
+    <script src="proj1form.js"></script>
+</body>
+</body>
+
+</html>
